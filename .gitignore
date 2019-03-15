@@ -15,3 +15,13 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+#cocoy custom
+xx_app/logs/*
+!xx_app/logs/index.html
+!xx_app/logs/.htaccess
+
+xx_public/user_guide_src/build/*
+xx_public/user_guide_src/cilexer/build/*
+xx_public/user_guide_src/cilexer/dist/*
+xx_public/user_guide_src/cilexer/pycilexer.egg-info/*
