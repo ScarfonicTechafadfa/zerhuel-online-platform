@@ -79,7 +79,7 @@ class Track_Visitor {
             //id held in $_SESSION["visitor_id"]
             $temp_visitor_id = $this->ci->session->userdata('visitor_id');
             $visitor_id = isset($temp_visitor_id) ? $temp_visitor_id : 0;
-            $no_of_visits = $this->ci->session->userdata('visits_count');
+            $no_of_visits = $this->ci->session->userdata('no_of_visits');
             $current_page = current_url();
             $temp_current_page = $this->ci->session->userdata('current_page');
             if (isset($temp_current_page) && $temp_current_page != $current_page) {

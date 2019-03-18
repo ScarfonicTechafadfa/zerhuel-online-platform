@@ -47,9 +47,10 @@ class Product extends CI_Controller
 
         $this->layout->add_css_files(
 		array('util.css'
-			,'main.css'),
+			,'main.css'
+			,'cookiealert.css'
+			),
 		base_url().'assets/themes/corastore/css/');
-		
 		 
 		$this->layout->add_js_files(
 		array('jquery/jquery-3.2.1.min.js'
@@ -69,7 +70,7 @@ class Product extends CI_Controller
 		base_url().'assets/themes/corastore/vendor/','footer');
 		
 		$this->layout->add_js_files(
-		array('main.js','slick-custom.js'),
+		array('main.js','slick-custom.js','cookiealert.js'),
 		base_url().'assets/themes/corastore/js/','footer');
         $js_text_footer = $this->load->view('themes/corastore/footer_javascript', '', true);
 
