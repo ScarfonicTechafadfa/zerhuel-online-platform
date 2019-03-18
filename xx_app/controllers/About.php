@@ -93,8 +93,8 @@ class About extends CI_Controller
         $this->layout->set_body_attr(array('class' => 'animsition'));
 
         // load views and send data
-        $this->load->view('themes/corastore/navigation');
         $this->load->view('themes/corastore/header');
+        $this->load->view('themes/corastore/navigation');
         $this->load->view('themes/corastore/about');
         $this->load->view('themes/corastore/footer');
     }

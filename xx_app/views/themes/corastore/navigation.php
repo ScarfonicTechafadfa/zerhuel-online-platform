@@ -41,7 +41,7 @@
 					<div class="menu-desktop">
 						<ul class="main-menu">
 							<li class="active-menu">
-								<a href="index.html">Home</a>
+								<a href="<?php echo site_url(); ?>">Home</a>
 								<ul class="sub-menu">
 									<li><a href="<?php echo site_url(); ?>">Homepage 1</a></li>
 									<li><a href="<?php echo site_url(); ?>">Homepage 2</a></li>
@@ -89,7 +89,7 @@
 		<div class="wrap-header-mobile">
 			<!-- Logo moblie -->		
 			<div class="logo-mobile">
-				<a href="index.html"><img src="<?php echo base_url().'assets/themes/corastore/' ?>images/v1/logo-1.0.0.png" alt="IMG-LOGO"></a>
+				<a href="<?php echo site_url(); ?>"><img src="<?php echo base_url().'assets/themes/corastore/' ?>images/v1/logo-1.0.0.png" alt="IMG-LOGO"></a>
 			</div>
 
 			<!-- Icon header -->
@@ -148,7 +148,7 @@
 
 			<ul class="main-menu-m">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="<?php echo site_url(); ?>">Home</a>
 					<ul class="sub-menu-m">
 						<li><a href="<?php echo site_url(); ?>">Homepage 1</a></li>
 						<li><a href="<?php echo site_url(); ?>">Homepage 2</a></li>
