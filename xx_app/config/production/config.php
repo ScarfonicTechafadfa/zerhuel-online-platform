@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://scarfonictech-ci-template.azurewebsites.net/';
+$config['base_url'] = 'http://localhost:8181/zerhuel-online-platform/xx_public/';
 
 /*
 |--------------------------------------------------------------------------
@@ -100,7 +100,7 @@ $config['charset'] = 'UTF-8';
 | setting this variable to TRUE (boolean).  See the user guide for details.
 |
 */
-$config['enable_hooks'] = TRUE; 
+$config['enable_hooks'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -324,7 +324,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = '2d8+e6]K0?ocWp7&`K)>6Ky"|.x|%nuwafC~S/+6_mZI9/17y=sKKG.;Tt}k';
 
 /*
 |--------------------------------------------------------------------------
