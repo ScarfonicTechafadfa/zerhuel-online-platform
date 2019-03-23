@@ -43,7 +43,7 @@ CREATE TABLE `master_sitelogs_v1` (
 DROP TABLE IF EXISTS `site_log`;
 
 CREATE TABLE `site_log` (
-  `site_log_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `site_log_id` bigint(15) unsigned NOT NULL AUTO_INCREMENT,
   `no_of_visits` int(10) unsigned NOT NULL,
   `ip_address` varchar(20) NOT NULL,
   `requested_url` tinytext NOT NULL,
