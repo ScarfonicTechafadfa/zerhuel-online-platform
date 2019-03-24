@@ -69,12 +69,14 @@ class Track_Visitor {
                 $proceed = FALSE;
             }
             if ($proceed === TRUE) {
-                $this->log_visitor_bu();
+                $this->log_visitor();
             }
         }
     }
     private function log_visitor() {
-        if ($this->track_session() === TRUE) {
+		
+		try { 
+  if ($this->track_session() === TRUE) {
             //update the visitor log in the database, based on the current visitor
             //id held in $_SESSION["visitor_id"]
             $temp_visitor_id = $this->ci->session->userdata('visitor_id');
@@ -152,6 +154,14 @@ class Track_Visitor {
                 $this->ci->session->set_userdata('current_page', $current_page);
             }
         }
+			}
+		}
+
+		catch (Exception $e) {
+			//alert the user then kill the process
+			var_dump($e->getMessage());
+		}		
+      
     }
 	
     private function log_visitor_bu() {
