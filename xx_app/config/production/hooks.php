@@ -74,12 +74,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @todo			add another language for the develbar return
  *
  ***************************************************************************/
-$hook['display_override'][] = array(
-	'class'  	=> 'develbar',
-    'function' 	=> 'debug',
-    'filename' 	=> 'develbar_hook.php',
-    'filepath' 	=> 'hooks'
-);
 
 
 
