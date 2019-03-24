@@ -154,7 +154,7 @@ class Track_Visitor {
                 $this->ci->session->set_userdata('current_page', $current_page);
             }
         }
-			}
+			
 		}
 
 		catch (Exception $e) {
