@@ -384,4 +384,6 @@ switch (ENVIRONMENT)
  *
  * And away we go...
  */
+ 
+ die("test");
 require_once BASEPATH.'core/CodeIgniter.php';
