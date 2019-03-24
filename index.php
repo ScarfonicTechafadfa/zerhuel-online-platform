@@ -29,11 +29,16 @@ define('DB_PASSWORD', $connectstr_dbpassword);
 
 /** MySQL hostname : this contains the port number in this format host:port . Port is not 3306 when using this feature*/
 define('DB_HOST', $connectstr_dbhost);
-
-echo DB_NAME . "\n";
-echo DB_USER . "\n";
-echo DB_PASSWORD . "\n";
-echo DB_HOST . "\n";
+/*
+localdb
+azure
+6#vWHD_$
+127.0.0.1:50789
+*/
+// echo DB_NAME . "\n";
+// echo DB_USER . "\n";
+// echo DB_PASSWORD . "\n";
+// echo DB_HOST . "\n";
 
 die();
 /**
