@@ -69,7 +69,7 @@ class Track_Visitor {
                 $proceed = FALSE;
             }
             if ($proceed === TRUE) {
-                $this->log_visitor();
+                $this->log_visitor_bu();
             }
         }
     }
