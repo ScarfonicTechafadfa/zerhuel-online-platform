@@ -1,6 +1,6 @@
 /*
 SQLyog Community v12.5.0 (64 bit)
-MySQL - 5.5.11 : Database - zerhuel_online_platform_db_dev
+MySQL - 5.5.11 : Database - id9049361_zerhuel_online_platform_db_prod
 *********************************************************************
 */
 
@@ -12,9 +12,9 @@ MySQL - 5.5.11 : Database - zerhuel_online_platform_db_dev
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`zerhuel_online_platform_db_dev` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`id9049361_zerhuel_online_platform_db_prod` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
-USE `zerhuel_online_platform_db_dev`;
+USE `id9049361_zerhuel_online_platform_db_prod`;
 
 /*Table structure for table `master_sitelogs_v1` */
 
@@ -36,8 +36,6 @@ CREATE TABLE `master_sitelogs_v1` (
   PRIMARY KEY (`sitelogid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-/*Data for the table `master_sitelogs_v1` */
-
 /*Table structure for table `site_log` */
 
 DROP TABLE IF EXISTS `site_log`;
@@ -56,18 +54,13 @@ CREATE TABLE `site_log` (
   PRIMARY KEY (`site_log_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=666 DEFAULT CHARSET=utf8;
 
-/*Data for the table `site_log` */
-
-insert  into `site_log`(`site_log_id`,`no_of_visits`,`ip_address`,`requested_url`,`referer_page`,`page_name`,`query_string`,`user_agent`,`is_unique`,`access_date`) values 
-(665,1,'::1','/zerhuel-online-platform/xx_public/about','','about/index','','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',0,'2019-03-19 01:26:21');
-
 /* Procedure structure for procedure `spmaster_sitelogs_getidv1` */
 
 /*!50003 DROP PROCEDURE IF EXISTS  `spmaster_sitelogs_getidv1` */;
 
 DELIMITER $$
 
-/*!50003 CREATE DEFINER=`root`@`localhost` PROCEDURE `spmaster_sitelogs_getidv1`(
+/*!50003 CREATE DEFINER=`id9049361_sa`@`localhost` PROCEDURE `spmaster_sitelogs_getidv1`(
 	_sitelogid BIGINT
 	 
     )
@@ -99,7 +92,7 @@ DELIMITER ;
 
 DELIMITER $$
 
-/*!50003 CREATE DEFINER=`root`@`localhost` PROCEDURE `spmaster_sitelogs_postv1`(
+/*!50003 CREATE DEFINER=`id9049361_sa`@`localhost` PROCEDURE `spmaster_sitelogs_postv1`(
 	_ci_session VARCHAR(25),
 	_php_session VARCHAR(40),
 	_ip_address VARCHAR(20),
