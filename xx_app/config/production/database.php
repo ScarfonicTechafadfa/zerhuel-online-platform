@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'admin',
+	'hostname' => 'localdb',
+	'username' => 'azure',
+	'password' => '6#vWHD_$',
 	'database' => 'zerhuel_online_platform_db_dev',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
