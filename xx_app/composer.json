@@ -1,13 +1,13 @@
 {
-    "name": "scarfonic/codeigniterultimatestarter",
-    "description": "All learnings of the codeigntier that provided in the awesome developer and epic community",
+    "name": "zerhuel/b2b",
+    "description": "ECOmmerce platform for Business to business",
     "type": "project",
 	"license": [
        "LGPL-2.1-only",
        "GPL-3.0-or-later"
     ],
 	"support": {
-		"email": "francisco.abayon@rafi.org.ph",
+		"email": "franz.noyaba@gmail.com",
 		"issues": "https://github.com/bcit-ci/CodeIgniter/wiki",
 		"forum": "https://github.com/bcit-ci/CodeIgniter/wiki",
 		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
@@ -26,11 +26,7 @@
         }
     ],
     "require": {
-		"php": ">=5.3",
-		"vlucas/phpdotenv": "^2.2",
-		"compwright/codeigniter-installers": "*",
-		"graylog2/gelf-php": "^1.5",
-		"monolog/monolog": "^1.23"
+		"php": ">=5.3"
 	},
 	"require-dev": {
 	
