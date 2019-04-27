@@ -7,6 +7,7 @@
 				<div class="content-topbar flex-sb-m h-full container">
 					<div class="left-top-bar">
 						You can simply buy product or a distrubuter itself.
+						<button id="btn-login" class="btn btn-login">Sign In</button>
 					</div>
 
 					<!--div class="right-top-bar flex-w h-full">

@@ -71,7 +71,7 @@ class Cart extends CI_Controller
 		base_url().'assets/themes/corastore/vendor/','footer');
 		
 		$this->layout->add_js_files(
-		array('main.js','slick-custom.js','cookiealert.js'),
+		array('main.js','slick-custom.js','cookiealert.js','app.js'),
 		base_url().'assets/themes/corastore/js/','footer');
         $js_text_footer = $this->load->view('themes/corastore/footer_javascript', '', true);
 

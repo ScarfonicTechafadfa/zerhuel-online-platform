@@ -315,6 +315,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </button>
 </div>
 <!-- END Bootstrap-Cookie-Alert -->
+<script src="https://cdn.auth0.com/js/lock-8.1.min.js"></script>
 <?php echo CI_footer(); ?>
 </body>
 </html>
